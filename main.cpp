@@ -1,12 +1,14 @@
-#include "iostream"
 
-3 // This program is just an example one under VCS.
-4 int main()
-5 {
-6 int a, b;
-7 cout << "Enter A and B: ";
-8 cin >> a >> b;
-9 cout << "A + B = " << a + b << '\n'
-10 << "A - B = " << a - b << '\n'
-11 << "A * B = " << a * b << '\n';
-12 }
+#include <iostream>
+using namespace std;
+ // This program is just an example one under VCS.
+int main()
+ {
+ int a, b;
+ cout << "Enter A and B: ";
+ cin >> a >> b;
+ cout << "A + B = " << a + b << '\n';
+ cout << "A - B = " << a - b << '\n';
+ cout << "A * B = " << a * b << '\n';
+ cout << "A / B = " << a / b << '\n';
+ }
