@@ -1,13 +1,12 @@
-.//This is program for education
-#include <iostream>
+ #include "iostream"
 
-using namespace std;
-
-int main()
-{
-    int a, b,c ;
-    cout << "Welcome";
-    cin >> a >> b;
-    c = a - b;
-    cout << c;
-}
+ // This program is just an example one under VCS.
+ int main()
+ {
+ int a, b;
+ cout << "Enter A and B: ";
+ cin >> a >> b;
+ cout << "A + B = " << a + b << '\n'
+ << "A - B = " << a - b << '\n'
+ << "A * B = " << a / b << '\n';
+ }
